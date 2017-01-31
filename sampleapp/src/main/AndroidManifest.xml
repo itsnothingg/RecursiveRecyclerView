@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.choiintack.recursiverecyclerview">
+    package="com.choiintack.recursiverecyclerviewdemo">
 
     <application
         android:allowBackup="true"
