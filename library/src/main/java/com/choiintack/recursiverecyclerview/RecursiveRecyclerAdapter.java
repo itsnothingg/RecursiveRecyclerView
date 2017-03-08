@@ -87,5 +87,11 @@ public abstract class RecursiveRecyclerAdapter<VH extends RecyclerView.ViewHolde
         notifyItemRangeRemoved(position  + 1, items.size());
         notifyItemChanged(position);
     }
+    
+    public void clearItems() {
+        if (mItems != null) {
+            mItems.clear();
+        }
+    }
 
 }
